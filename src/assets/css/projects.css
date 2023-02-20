@@ -19,22 +19,61 @@
   font-family: "Raleway", sans-serif;
 }
 
-.projects-button{
-    background-color: transparent;
-    color: #f6f6f6;
-    border: 1px solid #f6f6f6;
-    border-radius: 5px;
-    padding-block: 0.5rem;
-    width: 15rem;
-    font-family: "Raleway", sans-serif;
+.projects-button {
+  background-color: transparent;
+  color: #f6f6f6;
+  border: 1px solid #f6f6f6;
+  border-radius: 5px;
+  padding-block: 0.5rem;
+  width: 15rem;
+  font-family: "Raleway", sans-serif;
 }
-.projects-button:hover{
-    background-color: #f6f6f6;
-    color: #171a29;
-    border-color: #f6f6f6;
+.projects-button:hover {
+  background-color: #f6f6f6;
+  color: #171a29;
+  border-color: #f6f6f6;
 }
-.projects-button:active{
-    background-color: #171a29;
-    color: #f6f6f6;
-    border-color: #f6f6f6;
+.projects-button:active {
+  background-color: #171a29;
+  color: #f6f6f6;
+  border-color: #f6f6f6;
+}
+
+.projects-card-title {
+  padding-bottom: 1rem;
+}
+
+.projects-modal-container {
+  font-family: "Raleway", sans-serif;
+  color: #f6f6f6;
+  background-color: #171a29;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #f6f6f6;
+}
+
+.projects-modal-button {
+  background-color: transparent;
+  color: #f6f6f6;
+  border: 1px solid #f6f6f6;
+  border-radius: 5px;
+  padding-block: 0.5rem;
+  width: 10rem;
+  font-family: "Raleway", sans-serif;
+}
+.projects-modal-button:hover {
+  background-color: #f6f6f6;
+  color: #171a29;
+  border-color: #f6f6f6;
+}
+.projects-modal-button:active {
+  background-color: #171a29;
+  color: #f6f6f6;
+  border-color: #f6f6f6;
+}
+
+.projects-img{
+  height: 13.5rem;
+  filter: brightness(95%);
 }

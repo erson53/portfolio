@@ -1,14 +1,10 @@
 import React from "react";
+import "../assets/css/moreaboutme.css"
 
 function Moreaboutme() {
   return (
-    <div>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
+    <div className="moreaboutme-container">
+
     </div>
   );
 }
