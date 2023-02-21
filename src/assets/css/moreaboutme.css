@@ -1,6 +1,41 @@
-.moreaboutme-container{
-    min-height: 100vh;
-    padding-block: 15vh;
-    padding-inline: 12vw;
-    background-color: #171a29;
+.moreaboutme-container {
+  min-height: 100vh;
+  padding-block: 15vh;
+  padding-inline: 12vw;
+  background-color: #171a29;
+}
+
+.accordion .item {
+  background-color: #171a29;
+  color: #f6f6f6;
+  font-family: "Raleway", sans-serif;
+  border: none;
+}
+
+.accordion .item .accordion-header button {
+  background-color: #171a29;
+  color: #f6f6f6;
+  box-shadow: none;
+  font-size: 1.25rem;
+}
+.accordion .item .accordion-header button:hover {
+  background-color: #f6f6f6;
+  color: #171a29;
+  box-shadow: none;
+}
+
+.accordion .item .accordion-header button::after {
+  background: transparent;
+}
+
+.accordion:last-child .item {
+  margin-bottom: 1rem;
+  border: 1px solid #f6f6f6;
+  font-size: 1rem;
+}
+
+.moreaboutme-title{
+    color: #f6f6f6;
+    font-family: "Raleway", sans-serif;
+    padding-bottom: 1rem;
 }

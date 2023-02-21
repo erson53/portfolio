@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
-import Mac from "../assets/img/mac.jpg";
+import Mac from "../assets/img/mac.png";
 import HIVE from "../assets/img/hive.png";
 import Minion from "../assets/img/minion.png";
 import Modal from "react-bootstrap/Modal";
