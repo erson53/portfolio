@@ -9,8 +9,11 @@ import HIVE from "../assets/img/hive.png";
 import Minion from "../assets/img/minion.png";
 import Modal from "react-bootstrap/Modal";
 import CloseButton from "react-bootstrap/CloseButton";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Projects(props) {
+  AOS.init();
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -29,11 +32,13 @@ function Projects(props) {
   return (
     <div id="projects">
       <div className="projects-container">
-        <h1 className="projects-title">Bisherige Projekte</h1>
+        <h1 className="projects-title" data-aos="fade-up">
+          Bisherige Projekte
+        </h1>
         <Container>
           <Row>
             <Col>
-              <Card className="projects-card-container">
+              <Card data-aos="fade-up" className="projects-card-container">
                 <Card.Img variant="top" src={Mac} className="projects-img" />
                 <Card.Body>
                   <Card.Title className="projects-card-title">
@@ -74,7 +79,7 @@ function Projects(props) {
               </Card>
             </Col>
             <Col>
-              <Card className="projects-card-container">
+              <Card data-aos="fade-up" className="projects-card-container">
                 <Card.Img variant="top" src={HIVE} className="projects-img" />
                 <Card.Body>
                   <Card.Title className="projects-card-title">HIVE</Card.Title>
@@ -91,7 +96,9 @@ function Projects(props) {
                   >
                     <div className="projects-modal-container">
                       <Modal.Header>
-                        <Modal.Title>Full Stack Developer im lernenden Team HIVE</Modal.Title>
+                        <Modal.Title>
+                          Full Stack Developer im lernenden Team HIVE
+                        </Modal.Title>
                         <CloseButton variant="white" onClick={handleClose2} />
                       </Modal.Header>
 
@@ -113,11 +120,11 @@ function Projects(props) {
               </Card>
             </Col>
             <Col>
-              <Card className="projects-card-container">
+              <Card data-aos="fade-up" className="projects-card-container">
                 <Card.Img variant="top" src={Minion} className="projects-img" />
                 <Card.Body>
                   <Card.Title className="projects-card-title">
-                    Team Minion 
+                    Team Minion
                   </Card.Title>
                   <button className="projects-button" onClick={handleShow3}>
                     Mehr erfahren
