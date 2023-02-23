@@ -47,3 +47,7 @@
 .moreaboutme-border-under-title{
   border-top: solid 1px #f6f6f6;
 }
+
+.projects-modal-body-space{
+  padding-bottom: 1rem;
+}

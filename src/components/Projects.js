@@ -62,7 +62,16 @@ function Projects(props) {
                       </Modal.Header>
 
                       <Modal.Body>
-                        Woohoo, you're reading this text in a modaldfdsfdsfdfss!
+                        <div className="projects-modal-body-space">
+                          • Skript Schreiben, Policy bearbeiten,neuerstellen,
+                          verwalten
+                        </div>
+                        <div className="projects-modal-body-space">
+                          • Ticket zuweisen, richtig bearbeiten, Abschließen
+                        </div>
+                        <div>
+                          • Kunden registrieren, löschen und Benutzerwechseln
+                        </div>
                       </Modal.Body>
 
                       <Modal.Footer>
@@ -103,7 +112,12 @@ function Projects(props) {
                       </Modal.Header>
 
                       <Modal.Body>
-                        Woohoo, you're reading this text in a modal!
+                        <div className="projects-modal-body-space">
+                          • Front-end web development
+                        </div>
+                        <div>
+                          • Einführungen in die Verschiedenen Webframeworks
+                        </div>
                       </Modal.Body>
 
                       <Modal.Footer>
@@ -140,13 +154,21 @@ function Projects(props) {
                     <div className="projects-modal-container">
                       <Modal.Header>
                         <Modal.Title>
-                          Frontend-Entwickler/in im MinionSquad (Shenlong-Team)
+                          Frontend-Entwickler/in im MinionSquad (Freezer-Team)
                         </Modal.Title>
                         <CloseButton variant="white" onClick={handleClose3} />
                       </Modal.Header>
 
                       <Modal.Body>
-                        Woohoo, you're reading this text in a modal!
+                        <div className="projects-modal-body-space">
+                          • Front-end web development
+                        </div>
+                        <div className="projects-modal-body-space">
+                          • Einführung in Angular und Typescript
+                        </div>
+                        <div>
+                          • Scrum
+                        </div>
                       </Modal.Body>
 
                       <Modal.Footer>

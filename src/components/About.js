@@ -19,13 +19,7 @@ function About() {
                 Über mich
               </h1>
               <p className="about-text" data-aos="fade-up">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Ich bin ein Informatiker im zweiten Lehrjahr in Fachrichtung Applikationsentwicklung. Momentan arbeite ich als Frontend Developer im Team Minion, 
               </p>
               <a href="/about">
                 <button data-aos="fade-up" className="about-button">
