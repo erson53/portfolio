@@ -39,3 +39,11 @@
     font-family: "Raleway", sans-serif;
     padding-bottom: 1rem;
 }
+
+.moreaboutme-row-space{
+  padding-bottom: 0.5rem;
+}
+
+.moreaboutme-border-under-title{
+  border-top: solid 1px #f6f6f6;
+}
