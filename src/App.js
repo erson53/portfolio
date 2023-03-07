@@ -3,7 +3,7 @@ import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Navigation from "./components/Navigation";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Moreaboutme from "./components/Moreaboutme";
@@ -15,12 +15,12 @@ function App() {
         <Navigation />
         <div className="content">
           <Switch>
-            <Route path="/home">
+            <Route path="/portfolio/#/home">
               <Home />
               <About />
               <Projects />
             </Route>
-            <Route path="/about">
+            <Route path="/portfolio/#/about">
               <Moreaboutme />
             </Route>
           </Switch>
