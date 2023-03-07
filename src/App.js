@@ -15,12 +15,12 @@ function App() {
         <Navigation />
         <div className="content">
           <Switch>
-            <Route path="/portfolio/#/home">
+            <Route path="/home">
               <Home />
               <About />
               <Projects />
             </Route>
-            <Route path="/portfolio/#/about">
+            <Route path="/about">
               <Moreaboutme />
             </Route>
           </Switch>
