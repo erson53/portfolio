@@ -2,6 +2,7 @@
   padding-inline: 12vw;
   background-color: #171a29;
   padding-bottom: 15vh;
+  text-align: center;
 }
 
 .about-title {
@@ -20,7 +21,7 @@
 
 .about-img {
   border-radius: 5px;
-  height: 14rem;
+  height: 12rem;
 }
 
 .about-img-container {

@@ -14,17 +14,15 @@ function About() {
       <div className="about-container">
         <Container>
           <Row>
-            <Col className="about-text-container">
-              <h1 className="about-title" data-aos="fade-up">
-                Über mich
-              </h1>
-              <p className="about-text" data-aos="fade-up">
-              Ich bin ein Informatiker im zweiten Lehrjahr in Fachrichtung Applikationsentwicklung. Momentan arbeite ich als Frontend Developer im Team Minion, 
+            <Col data-aos="fade-up" className="about-text-container">
+              <h1 className="about-title">Über mich</h1>
+              <p className="about-text">
+                Ich bin ein Informatiker im zweiten Lehrjahr in Fachrichtung
+                Applikationsentwicklung. Momentan arbeite ich als Frontend
+                Developer im Team Minion,
               </p>
               <a href="/about">
-                <button data-aos="fade-up" className="about-button">
-                  Mehr erfahren
-                </button>
+                <button className="about-button">Mehr erfahren</button>
               </a>
             </Col>
             <Col data-aos="fade-up" className="about-img-container">

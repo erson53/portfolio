@@ -34,20 +34,20 @@
   font-size: 1rem;
 }
 
-.moreaboutme-title{
-    color: #f6f6f6;
-    font-family: "Raleway", sans-serif;
-    padding-bottom: 1rem;
+.moreaboutme-title {
+  color: #f6f6f6;
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 1rem;
 }
 
-.moreaboutme-row-space{
+.moreaboutme-row-space {
   padding-bottom: 0.5rem;
 }
 
-.moreaboutme-border-under-title{
+.moreaboutme-border-under-title {
   border-top: solid 1px #f6f6f6;
 }
 
-.projects-modal-body-space{
+.projects-modal-body-space {
   padding-bottom: 1rem;
 }
